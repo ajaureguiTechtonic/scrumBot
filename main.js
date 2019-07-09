@@ -1,7 +1,9 @@
 var request = require('request');
 
+// title and value will need to be dynamically created.
+
 var bodyData = `{
-  "title": "Pages five",
+  "title": "Pages seven",
   "type": "page",
   "space": {
     "key": "~37927709"
@@ -14,7 +16,7 @@ var bodyData = `{
   ],
   "body": {
       "storage": {
-        "value": "<p>can you see me</p>",
+        "value": "<h1>Scrum Updates</h1><p>July 9 2019</p>",
         "representation": "storage"
       }
     }
